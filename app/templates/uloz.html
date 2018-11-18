@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form action="/uloz" method="Post">
+        <input type="submit" value="Ulož do databázy" name="Ulož do databázy"/>
+        <input type="submit" value="Ulož do PC" name="Ulož do PC"/>
+    </form>
+
+</body>
+</html>
+{% endblock %}
